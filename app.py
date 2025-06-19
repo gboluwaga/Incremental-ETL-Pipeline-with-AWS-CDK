@@ -9,7 +9,7 @@ from data_consumer.data_consumer_stack import DataConsumerStack
 from data_producer.data_producer_stack import DataProducerStack
 from s3_bucket.s3_bucket_stack import S3BucketStack
 
-
+env_EU = cdk.Environment(account="792399197691", region="eu-west-1")
 
 
 app = cdk.App()
